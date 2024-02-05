@@ -1,20 +1,23 @@
 .speech{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: large;
+font-family: 'Arial Narrow Bold', sans-serif;
+font-size: 18px;
 color: black;
 }
 
 .directions{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
     color: black;
     background-color: azure;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .directions:hover{
     background-color:beige;
     color: brown;
+}
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .LOPAKHIN{
