@@ -1,0 +1,30 @@
+.speech{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: large;
+color: black;
+}
+
+.directions{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+    background-color: azure;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.directions:hover{
+    background-color:beige;
+    color: brown;
+}
+
+.LOPAKHIN{
+    color: darkblue;
+}
+
+.DUNYASHA{
+    color: chartreuse;
+}
+
+.EPIKHODOV{
+    color:darkmagenta;
+}
