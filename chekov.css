@@ -4,15 +4,15 @@ font-size: 18px;
 color: black;
 }
 
-.directions{
+.direction{
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     color: black;
-    background-color: azure;
+    background-color:azure;
     transition: background-color 0.5s, color 0.5s;
 }
 
-.directions:hover{
+.direction:hover{
     background-color:beige;
     color: brown;
 }
@@ -31,3 +31,30 @@ color: black;
 .EPIKHODOV{
     color:darkmagenta;
 }
+
+.table{
+    border-color:rgba(15, 181, 120, 0.705);
+    width: 0vmax;
+    text-align: center;
+    padding: 13px;
+    margin: 12px;
+}
+
+th{
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(51, 150, 5);
+    color:rgb(252, 250, 250);
+    height: 50px;
+    background-color:rgba(73, 181, 124, 0.858);
+}
+
+td {
+    border: 2px solid;
+    border-radius: 3px;
+    border-color:rgb(198, 45, 58);
+    height:40px;
+}
+tr:hover {background-color: chocolate;
+}
+
