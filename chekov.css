@@ -60,3 +60,43 @@ td {
 tr:hover {background-color: chocolate;
 }
 
+
+.DUNYASHA:hover {
+    font-size: medium;
+    color:rgb(13, 217, 159);
+    text-shadow:0 0 10px rgb(171, 14, 14);
+    border-style: double;
+    border-radius: 5px;
+}
+.LOPAKHIN:hover {
+    font-size: medium;
+    color:rgb(105, 18, 212);
+    text-shadow: 0 0 10px rgb(138, 219, 9);
+    border-style: double ;
+    border-radius: 5px;
+}
+.EPIKHODOV:hover{
+    font-size: medium;
+    color:rgb(6, 108, 224);
+    text-shadow: 0 0 10px rgb(242, 7, 168);
+    border-style: double;
+    border-radius: 6px;
+}
+u1.navbar-horizontal {
+    list-style-type: none;
+    margin: 2;
+    padding: 3;
+    }
+    u1.navbar-horizontal li {
+        float:left;
+        color:rgb(81, 4, 33);
+        background-color: rgb(171, 214, 16);
+    }
+    u1.navbar-horizontal a {
+        display:block;
+        padding:8px;
+    }
+    u1.navbar-horizontal a:hover {
+        background-color: rgb(228, 72, 98);
+        color:rgb(246, 87, 14);
+    }
