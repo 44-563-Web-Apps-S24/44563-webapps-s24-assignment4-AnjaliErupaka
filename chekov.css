@@ -9,7 +9,6 @@ color: black;
     font-size: 16px;
     color: black;
     background-color:azure;
-    transition: background-color 0.5s, color 0.5s;
 }
 
 .direction:hover{
@@ -39,14 +38,16 @@ color: black;
     padding: 13px;
     margin: 12px;
 }
-
+.table_header_col{
+    background-color: blueviolet;
+}
 th{
     border: 2px solid;
     border-radius: 5px;
     border-color: rgb(51, 150, 5);
     color:rgb(252, 250, 250);
     height: 50px;
-    background-color:rgba(73, 181, 124, 0.858);
+    background-color:rgba(13, 36, 186, 0.858);
 }
 
 td {
@@ -55,6 +56,7 @@ td {
     border-color:rgb(198, 45, 58);
     height:40px;
 }
+
 tr:hover {background-color: chocolate;
 }
 
